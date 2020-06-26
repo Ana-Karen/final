@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>11</title>
+	
+<script>
+    var direcciones = new Array("1.html","2.html","3.html","4.html","5.html","6.html","7.html","8.html","9.html","10.html","11.html","12.html","13.html","14.html","15.html","16.html","17.html","18.html","19.html","20.html","21.html","22.html","23.html","24.html","25.html","26.html","27.html","28.html","29.html","30.html","31.html","32.html","33.html","34.html","35.html","36.html","37.html","38.html","39.html","40.html")
+    function enlaceAleatorio(){
+       aleat = Math.random() * direcciones.length
+       aleat = Math.floor(aleat)
+       window.location=direcciones[aleat]
+    }
+</script>		
+	
+	
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	
+	
+<style>
+	
+#contenedor {
+			position: relative;
+			width: 1000px;
+			height: 500px;
+			border: thick;
+	background-color: rgba(0,0,0,0.00);}
+	
+	
+	img {
+			border-radius: 10px;
+		}
+	
+	.frase {
+    position: absolute;
+    text-align: center;
+    width: 250px;
+    top: 10px;
+    left: 40px;
+    background-color: #1A0012;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+		border-radius: 10px;
+}
+	
+	p{
+		padding: 50px;
+		text-align:center;
+		color:#FFFFFF;
+		font-size: 120px;
+		font-family:'Montserrat', sans-serif;}	
+
+	h1{padding: 50px;
+		text-align:center;
+		color:#FFFFFF;
+		font-size: 15px;
+		font-family: 'Montserrat', sans-serif;}	
+	
+	
+		#boton {
+		
+	position: absolute;
+	top: 560px;
+    left: 1000px;
+  width: 100px;
+  font-size: 15px;
+  padding: 10px;
+  border: none;
+  background: #660451;
+  color: #fff;
+  cursor: pointer;
+  align-content: center;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 15px 50px;
+}
+
+#boton:hover {
+  background: #EE4C7D;
+  color: black;
+}	
+	
+	
+	</style>	
+	
+</head>
+	
+	
+	
+<body bgcolor="#1F0125">
+	
+	<center>
+<div id="contenedor">
+<div class="frase">Intenté ponerme de pie, pero volví a caer junto a un pedazo de espejo roto...
+</div>	
+	
+<table width="900" border="0" cellspacing="10" cellpadding="0">
+  <tbody>
+    <tr>
+		<td colspan="2" rowspan="2"><img src="FINALES FRASES 11-20/11.0.jpg">
+		<td><a href="javascript:enlaceAleatorio()"><img src="FINALES FRASES 11-20/11.1.gif"></a></td>
+     
+    </tr>
+    <tr>
+		<td><a href="javascript:enlaceAleatorio()"><img src="FINALES FRASES 11-20/11.2.gif"></a></td>
+     
+    </tr>
+  </tbody>
+</table>
+	
+	
+	
+	
+	
+	
+	
+	
+	</div>	
+</center>
+	
+	
+<center><a href="index.html"><button id="boton" onclick="myFunction()">Regrésame</button></a>		
+	</center>	
+	
+</body>
+</html>	
+	
